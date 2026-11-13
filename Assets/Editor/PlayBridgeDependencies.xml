@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PlayBridge SDK Android 의존성 (External Dependency Manager 용)
+  Assets > External Dependency Manager > Android Resolver > Force Resolve 로 적용
+-->
+<dependencies>
+  <androidPackages>
+    <repositories>
+      <repository>https://junhojohn.github.io/playbridge-sdk-android-maven/maven-repo</repository>
+    </repositories>
+    <androidPackage spec="kr.co.playbridge.sdk:playbridge-sdk:0.0.2">
+      <repositories>
+        <repository>https://junhojohn.github.io/playbridge-sdk-android-maven/maven-repo</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+</dependencies>
